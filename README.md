@@ -660,7 +660,7 @@ But before running this on a night shift I want to first try out a slightly comp
 Version 2 of EfficientNet offers a small, medium and large model. According to [this paper](https://arxiv.org/abs/2104.00298) the medium model offers a much higher accuracy without a significant increase in parameters:
 
 
-![EfficientNetV2: Smaller Models and Faster Training](.https://github.com/mpolinowski/keras_transfer_learning_2023/blob/master/assets/04_Tensorflow_Transfer_Learning_28.png)
+![EfficientNetV2: Smaller Models and Faster Training](https://github.com/mpolinowski/keras_transfer_learning_2023/blob/master/assets/04_Tensorflow_Transfer_Learning_28.png)
 <!-- #endregion -->
 
 ```python
@@ -823,7 +823,7 @@ fine_tuning_v2_history = model_v2.fit(
 combine_training_curves(feature_extraction_v2_history, fine_tuning_v2_history, pretraining_epochs=5)
 ```
 
-![EfficientNetV2: Smaller Models and Faster Training](.https://github.com/mpolinowski/keras_transfer_learning_2023/blob/master/assets/04_Tensorflow_Transfer_Learning_29.png)
+![EfficientNetV2: Smaller Models and Faster Training](https://github.com/mpolinowski/keras_transfer_learning_2023/blob/master/assets/04_Tensorflow_Transfer_Learning_29.png)
 
 
 #### Predictions
@@ -854,7 +854,7 @@ plot_confusion_matrix(y_pred=predicted_labels,
                       text_size=8)
 ```
 
-![EfficientNetV2: Smaller Models and Faster Training](.https://github.com/mpolinowski/keras_transfer_learning_2023/blob/master/assets/04_Tensorflow_Transfer_Learning_30.png)
+![EfficientNetV2: Smaller Models and Faster Training](https://github.com/mpolinowski/keras_transfer_learning_2023/blob/master/assets/04_Tensorflow_Transfer_Learning_30.png)
 
 ```python
 # Load TensorBoard
@@ -862,9 +862,9 @@ plot_confusion_matrix(y_pred=predicted_labels,
 %tensorboard --logdir '../tensorboard/food101/'
 ```
 
-![EfficientNetV2: Smaller Models and Faster Training](.https://github.com/mpolinowski/keras_transfer_learning_2023/blob/master/assets/04_Tensorflow_Transfer_Learning_31.png)
+![EfficientNetV2: Smaller Models and Faster Training](https://github.com/mpolinowski/keras_transfer_learning_2023/blob/master/assets/04_Tensorflow_Transfer_Learning_31.png)
 
-![EfficientNetV2: Smaller Models and Faster Training](.https://github.com/mpolinowski/keras_transfer_learning_2023/blob/master/assets/04_Tensorflow_Transfer_Learning_32.png)
+![EfficientNetV2: Smaller Models and Faster Training](https://github.com/mpolinowski/keras_transfer_learning_2023/blob/master/assets/04_Tensorflow_Transfer_Learning_32.png)
 
 ```python
 # save the full model
